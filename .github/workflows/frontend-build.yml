@@ -5,7 +5,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  BASE_IMG_NAME: ${{ github.repository }}
+  BASE_IMG_NAME: triplekingg/foodtrucks
+
 jobs:
   build:
     runs-on: ubuntu-latest
