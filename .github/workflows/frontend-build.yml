@@ -1,5 +1,4 @@
 name: Build Frontend CI
-blah
 on:
   push:
     branches: [ master ]
